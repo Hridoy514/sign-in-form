@@ -1,0 +1,122 @@
+/*Header part start*/
+img{
+    width: 90px;
+    height: 90px;
+    margin: 25px;
+}
+body{
+    padding: 10;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(79, 205, 255);
+}
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 160px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all 0.5s ease-in ;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}/*Header part end*/
+
+/*Form part start*/
+
+.form1{
+    background-color: rgb(255, 71, 71);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    width: fit-content;
+    padding: 50px 80px ;
+    margin-top: 150px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0,0.19);
+
+}
+.form1 input{
+    border-color: rgb(100, 89, 89);
+    padding: 1px;
+}
+.form1 .btn{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*Form part end*/
+
+/*Footer part start*/
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+  
+}
+.name h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text p{
+    width: 550px;
+    text-align: justify;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+}
+.icon i{
+    font-size: 30px;
+    position: relative;
+    top: -06px;
+    padding: 06px;
+}
+.CR{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    font-size: 20px;
+    line-height: 20px;
+}
+/*Footer part end*/
+
